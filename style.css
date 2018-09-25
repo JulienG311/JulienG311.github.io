@@ -1,0 +1,10 @@
+a { 
+	font-size: 150%; 
+	text-align: center;
+}
+p {
+text-align: center;
+font-family: 'Roboto', sans-serif; 
+background-color: green;
+}
+img {style="width:200px;height:300px;"}
