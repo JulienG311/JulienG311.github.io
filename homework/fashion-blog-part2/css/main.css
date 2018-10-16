@@ -1,0 +1,61 @@
+body {
+	margin: 0;
+}
+
+header h1,
+header h2 {
+	margin: 0;
+	display: inline-block;
+}
+
+h1 {
+    margin-right: 30px;
+    color: red;
+    font-size: 54px;
+    font-weight: 300;
+}
+
+h2 {
+	color: #888;
+    font-size: 27px;
+    font-weight: 300;
+}
+
+nav {
+	/* because all of nav's children are floating - we have to take care of the float! */
+	overflow: auto;
+}
+
+a {
+    width: 180px;
+    padding: 15px 0;
+    display: block;
+    text-align: center;
+    float: left;
+    text-decoration: none;
+	font-kernt-size: 24px;
+	background: black;
+    color: #fff;
+	text-decoration: none;
+}
+
+.container {
+	margin: auto;
+	width: 1080px;
+	padding: 54px;
+}
+
+.parent{
+	/* because all of .parent's children are floating - we have to take care of the float! */
+	overflow: auto;
+}
+
+.left{
+	width: 60%;
+	float: left;
+}
+
+.right{
+	float: right;
+	width: 35%;
+}
